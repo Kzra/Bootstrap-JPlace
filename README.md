@@ -5,7 +5,7 @@ A shell script that will create an iTOL dataset of bootstrap symbols/labels to a
 ```shell
 bash bootstrap_jplace.sh [reference-tree] [jplace-tree]
 ```
-Where \[reference-tree] is a bootstrapped tree in the format RAxML_bipartitions.ref_tree.out and is of identical topology to the jplace tree RaxML_portableTree.EPA_tree.out.jplace.
+Where \[reference-tree] is a bootstrapped tree in the format RAxML_bipartitions.ref_tree.out and is of identical topology to the \[jplace-tree] RaxML_portableTree.EPA_tree.out.jplace.
 
 
 Two output files, *Branch_Labels.txt* & *Branch_Symbols.txt* will be produced.
